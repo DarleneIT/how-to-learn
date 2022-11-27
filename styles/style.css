@@ -42,7 +42,7 @@ dv {
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal; 
+  font-weight: normal;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -237,7 +237,7 @@ dv {
   flex-direction: column;
   justify-content: flex-start;
   background-color:  #1f1f1f;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
   color: #f2f2f2;
 }
