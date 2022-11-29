@@ -342,7 +342,7 @@
   justify-content: space-between;
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
 }
