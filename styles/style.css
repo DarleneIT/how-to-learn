@@ -201,18 +201,18 @@
   padding: 100px 0 0 0;
 }
 
-.video_iframes {
+.video__iframes {
   display: flex;
   justify-content: center;
   position: relative;
   top: 50px;
 }
 
-.video_iframe {
+.video__iframe {
  margin-right: 20px;
 }
 
-.video_iframe:last-child {
+.video__iframe:last-child {
   margin-right: 0;
 }
 
@@ -233,12 +233,12 @@
   padding: 105px 0 0 0;
 }
 
-.khan_container {
+.khan__container {
   width: 80%;
   margin: auto;
 }
 
-.khan_author {
+.khan__author {
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
@@ -246,7 +246,7 @@
   padding: 0;
 }
 
-.khan_title {
+.khan__title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -254,7 +254,7 @@
   padding: 0 0 50px 0;
 }
 
-.khan_qoute {
+.khan__qoute {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -263,7 +263,7 @@
   padding: 0 0 36px 0;
 }
 
-.khan_quote-author {
+.khan__quote-author {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -271,7 +271,7 @@
   padding: 0 0 10px 0;
 }
 
-.khan_quote-author-subline {
+.khan__quote-author-subline {
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
@@ -279,12 +279,12 @@
   padding: 0 0 68px 0;
 }
 
-.khan_book-container {
+.khan__book-container {
   display: flex;
   align-items: flex-start;
 }
 
-.khan_book-pic {
+.khan__book-pic {
   height: 608px;
   width: 620px;
   padding: 0 48px 0 0;
@@ -292,7 +292,7 @@
   object-position: top;
 }
 
-.khan_buy-link {
+.khan__buy-link {
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
@@ -512,7 +512,7 @@
   margin: 100px 0 217px 0;
  }
 
- .logo-zone {
+ .resources__logo-zone {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -522,12 +522,12 @@
   padding: 0;
  }
 
- .resources_link {
+ .resources__link {
   opacity: 100%;
   transition: opacity 0.3s;
  }
 
-.resources_link:hover {
+.resources__link:hover {
   opacity: 50%;
   transition: opacity 0.5s;
 }
@@ -592,7 +592,7 @@
   padding: 0;
 }
 
-.footer_column-links {
+.footer__column-links {
   margin-top: 0;
   margin-bottom: 16px;
   padding: 0;
