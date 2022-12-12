@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
   <meta name="author" content="Daria Evdokimova">
@@ -66,8 +65,8 @@
       <h2 class="section-title">Видео нa TED</h2>
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
       <div class="video__iframes">
-        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
 
@@ -193,24 +192,21 @@
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-     
       <div class="resources__logo-zone">
-        <a class="resources__link" href="#"><img src="./images/logo/resources-arzamas.svg" alt="логотип" width='270px' height='38px'></a>
-        <a class="resources__link" href="#"><img src="./images/logo/resources-n1.svg" width='270px' height='38px'></a>
-        <a class="resources__link" href="#"><img src="./images/logo/resources-strelka.svg" width='270px' height='38px'></a>
-        <a class="resources__link" href="#"><img src="./images/logo/resources-polka.svg" width='270px' height='38px'></a>
+        <a class="resources__link" href="#"><img src="./images/logo/resources-arzamas.svg" alt="лого" width='270' height='38'></a>
+        <a class="resources__link" href="#"><img src="./images/logo/resources-n1.svg" alt="лого"  width='270' height='38'></a>
+        <a class="resources__link" href="#"><img src="./images/logo/resources-strelka.svg" alt="лого"  width='270' height='38'></a>
+        <a class="resources__link" href="#"><img src="./images/logo/resources-polka.svg" alt="лого" width='270' height='38'></a>
       </div>
-      
     </section>
-
   </main>
+
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
         <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Лого_Яндекс">
         <p class="footer__author">&copy; Дарья Евдокимова</p>
       </div>
-
       <div class="footer__column footer__column_content_info">
         <h2 class="footer__column-heading">О Практикуме</h2>
         <nav class="footer__column-links">
@@ -219,7 +215,6 @@
           <a href="#" class="footer__column-link">Наставники</a>
         </nav>
       </div>
-      
       <nav class="footer__column footer__column_content_social">
         <h2 class="footer__column-heading">Соцсети</h2>
         <div class="footer__column-links">
@@ -231,7 +226,6 @@
           <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="логотип">TikTok</a>  
           </div>
       </nav>
-
     </div>
   </footer>
 </body>
